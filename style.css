@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color:#DDC8C4;
+}
+
+.beginning h1{
+	font-size:80px;
+	color:#FCFF6C;
+	background-color:#17BEBB;
+	display: flex;
+	justify-content: center;
+	font-family:Dancing Script;
+	border: dotted 5px #FFFF82;
+	border-width: 15px;
+	border-right: hidden;
+	border-left: hidden;
+	font-weight:bolder;
+}
+
+.pictures{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	margin: 10%;
+}
+
+.side-pic	{
+	width: 30%;
+}
+.middle-pic {
+	width: 20%;
+}
+
+.pictures img{
+	border: solid 5px #17BEBB;
+	width: 100%;
+	border-style:ridge;
+	border-radius: 50%;
+}
+
+.abouttitle{
+	text-align:left;
+	font-family:Pacifico;
+	font-size:48px;
+	color:#D8E2DC;
+	text-decoration:underline;
+	background-color:#17BEBB;
+	display: flex;
+	justify-content:left;
+}
+
+.aboutbruno{
+	text-align:right;
+	font-family:Pacifico;
+	font-size:28px;
+	color:#D8E2DC;
+	word-wrap: normal;
+	text-align-last:center;
+	background-color:#17BEBB;
+	display: flex;
+	justify-content:right;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color:#FCFF6C;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.albums h1{
+	font-size:48px;
+	color:#D8E2DC;
+	font-family:Dancing Script;
+	display:flex;
+	justify-content:center;
+	background-color:#17BEBB;
+	border:solid 5px;
+}
+
+.album_pictures{
+	display:flex;
+	justify-content:space-between;
+}
+
+.album_pictures img{
+	width:30%;
+	border: ridge 5px #17BEBB;
+	border-radius:20%;
+}
+
+.album_name{
+	display: flex;
+	justify-content:space-around;
+	margin-right:10%;
+	font-size:15px;
+	font-family:Pacifico;
+	color: antiquewhite;
+}
+
+	.tours h1{
+		font-family:Dancing Script;
+		font-size:48px;
+		color:#D8E2DC;
+		display: flex;
+		justify-content:center;
+		background-color:#17BEBB;
+		border:solid 5px;
+	}
+
+	.tours td{
+		font-size:20px;
+		color:#D8E2DC;
+		background-color:#4D7EA8;
+		border:solid 5px #A7C6DA;
+		font-family:Pacifico;
+	}
+
+	.tourlocation{
+		display: flex;
+		flex-direction:column;
+		justify-content:flex-start;
+	}
+
+	.tourheaders th{
+		font-size:48px;
+		color:#F1FAEE;
+		background-color:#0096C7;
+		border:solid 5px;
+		font-family:Dancing Script;
+	}
+
+	.socials{
+	display: flex;
+	padding: 25px 5%;
+	align-items: center;
+	background-color:#98D2EB;
+	}
+
+
+
+
+	
+
